@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cam"
+    android:padding="16dp"
+    tools:context=".GiaoDien.MainTrangChu">
+    <ImageView
+        style="@style/dang_nhap_logo" />
+<!--    <LinearLayout style="@style/LayoutRawStyle">-->
+<!--        -->
+<!--    </LinearLayout>-->
+    <LinearLayout
+        style="@style/LayoutRawStyle"
+        android:paddingBottom="@dimen/main_margin">
+
+        <LinearLayout
+            style="@style/CategoryStyle"
+            android:layout_marginRight="@dimen/main_margin"
+            android:background="@color/category_albums"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/albums_text"
+                style="@style/CategoryTextStyle"
+                android:text="@string/thong_tin_bieu_dien" />
+
+            <ImageView
+                android:id="@+id/btnThongTinBieuDien"
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/albums" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/CategoryStyle"
+            android:background="@color/category_artists"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/artists_text"
+                style="@style/CategoryTextStyle"
+                android:text="@string/nhac_sy" />
+
+            <ImageView
+                android:id="@+id/btnNhacSy"
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/artists" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutRawStyle">
+
+        <LinearLayout
+            style="@style/CategoryStyle"
+            android:layout_marginRight="@dimen/main_margin"
+            android:background="@color/category_playlist"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/playlist_text"
+                style="@style/CategoryTextStyle"
+                android:text="@string/bai_hat" />
+
+
+            <ImageView
+                android:id="@+id/btnBaiHat"
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/playlist" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/CategoryStyle"
+            android:background="@color/category_tracks"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tracks_text"
+                style="@style/CategoryTextStyle"
+                android:text="@string/ca_sy" />
+
+            <ImageView
+                android:id="@+id/btnCaSy"
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/tracks" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

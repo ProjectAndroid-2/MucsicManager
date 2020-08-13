@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <ImageView
+        style="@style/item_hinh"
+        android:src="@drawable/logom5" />
+    <LinearLayout
+        style="@style/item_or">
+        <TextView
+            android:id="@+id/tvMaNS"
+            style="@style/item_ma"
+            android:text="dsafdsfdsfasf" />
+        <TextView
+            android:id="@+id/tvTenNS"
+            style="@style/item_ten"
+            android:text="dsfadsfdsf" />
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/btnXoa"
+        style="@style/item_hinh"
+        android:src="@drawable/ic_delete_forever_black_24dp" />
+    <Button
+        android:id="@+id/btnChiTiet"
+        style="@style/item_btn"
+        android:text="Chi tiết"
+        />
+</LinearLayout>
