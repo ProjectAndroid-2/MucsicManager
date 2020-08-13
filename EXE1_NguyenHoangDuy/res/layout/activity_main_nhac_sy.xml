@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiaoDien.MainNhacSy">
+    <TextView
+        style="@style/nhacsy"
+        android:text="@string/nhacsy"/>
+    <TextView
+        style="@style/thongtin"
+        android:text="@string/thongtinhacsy"/>
+    <EditText
+        android:id="@+id/edtMans"
+        style="@style/edit"
+        android:hint="@string/ma"/>
+    <EditText
+        android:id="@+id/edtTenns"
+        style="@style/edit"
+        android:hint="@string/hoten"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/cam"
+            android:textStyle="bold"
+            android:text="Thêm Bởi" />
+
+        <ImageButton
+            android:id="@+id/bt_signature"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30sp" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/thongtin"
+        android:text="@string/chucnang"/>
+    <LinearLayout
+        style="@style/or">
+        <Button
+            android:id="@+id/btnThem"
+            android:background="@drawable/btn"
+            android:drawableRight="@drawable/ic_person_add_black_24dp"
+            style="@style/button"
+            android:text="@string/them"/>
+        <Button
+            android:background="@drawable/btn"
+            android:drawableRight="@drawable/ic_delete_forever_black_24dp"
+            android:id="@+id/btnXoa"
+            style="@style/button"
+            android:text="@string/xoa"/>
+        <Button
+            android:background="@drawable/btn"
+            android:drawableRight="@drawable/ic_edit_black_24dp"
+            android:id="@+id/btnSua"
+            style="@style/button"
+            android:text="@string/sua"/>
+        <Button
+            android:background="@drawable/btn"
+            android:drawableRight="@drawable/ic_clear_all_black_24dp"
+            android:id="@+id/btnClear"
+            style="@style/button"
+            android:text="@string/clear"/>
+    </LinearLayout>
+    <TextView
+        style="@style/thongtin"
+        android:text="@string/hienthidanhsach"/>
+    <ListView
+        style="@style/lv"
+        android:id="@+id/lvShow"/>
+
+
+
+</LinearLayout>
