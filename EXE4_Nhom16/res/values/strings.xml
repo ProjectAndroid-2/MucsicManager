@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Nhóm 16</string>
+    <string name="theme_color">Theme Color</string>
+<!--    <string name="sleep_timer">bắt đầu</string>-->
+<!--    <string name="rate_app">Rate This App</string>-->
+
+    <string name="search">Search</string>
+    <string name="favorites">Favorites</string>
+    <string name="ok">có</string>
+    <string name="start_time">0.00</string>
+    <string name="final_time">0.00</string>
+    <string name="search_hint">Song Name</string>
+    <string name="no">không</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_text"> Bạn có muốn xóa không</string>
+    <string name="play_next">bạn muốn đổi bài :</string>
+</resources>
