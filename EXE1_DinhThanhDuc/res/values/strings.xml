@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DoanLTDD</string>
+    <string name="dang_nhap_qlam">Đăng Nhập Quản Lý Âm Nhạc</string>
+    <string name="nhap_tai_khoan">Nhập Tài Khoản</string>
+    <string name="nhap_mat_khau">Nhập Mật Khẩu</string>
+    <string name="dang_nhap">Đăng Nhập</string>
+    <string name="thoat">Thoát</string>
+    <string name="thong_tin_bieu_dien">Thông tin biểu diễn</string>
+    <string name="ca_sy">Ca sỹ</string>
+    <string name="nhac_sy">Nhạc Sỹ</string>
+    <string name="bai_hat">Bài Hát</string>
+    <!--    Nhac Sy-->
+    <string name="nhacsy">NHẠC SỸ</string>
+    <string name="thongtinhacsy">Thông tin nhạc sỹ</string>
+    <string name="chucnang">Chức năng</string>
+    <string name="hienthidanhsach">Hiển thị nhạc sỹ</string>
+    <string name="hoten">Nhập Họ tên nhạc sỹ</string>
+    <string name="ma">Nhập mã nhạc sỹ</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="clear">Clear</string>
+    <string name="manhacsy">Mã nhạc sỹ</string>
+    <string name="tennhacsy">Tên nhạc sỹ</string>
+    <string name="dau_van_tay">Dấu Vân Tay</string>
+</resources>

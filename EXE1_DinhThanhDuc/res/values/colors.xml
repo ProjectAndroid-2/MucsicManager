@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="cam">#ff7403</color>
+    <color name="primary_color">#212121</color>
+<!--    trang chu-->
+    <color name="category_albums">#FD8E09</color>
+    <color name="category_artists">#379237</color>
+    <color name="category_playlist">#8800A0</color>
+    <color name="category_tracks">#16AFCA</color>
+<!--    Nhac Sy-->
+    <color name="chu">#D53807</color>
+
+    <color name="docamm">#EF4444</color>
+    <color name="xanhm">#009F75</color>
+    <color name="camh">#FAA31B</color>
+    <color name="da">#382112</color>
+</resources>
