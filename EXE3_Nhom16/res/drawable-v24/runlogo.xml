@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/cay" android:duration="400"></item>
+    <item android:drawable="@drawable/cay1" android:duration="400"></item>
+    <item android:drawable="@drawable/cay2" android:duration="400"></item>
+    <item android:drawable="@drawable/cay3" android:duration="400"></item>
+    <item android:drawable="@drawable/cay4" android:duration="400"></item>
+    <item android:drawable="@drawable/cay5" android:duration="400"></item>
+    <item android:drawable="@drawable/cay6" android:duration="400"></item>
+    <item android:drawable="@drawable/cay7" android:duration="400"></item>
+    <item android:drawable="@drawable/cay8" android:duration="400"></item>
+    <item android:drawable="@drawable/cay10" android:duration="400"></item>
+    <item android:drawable="@drawable/cay11" android:duration="400"></item>
+    <item android:drawable="@drawable/cay12" android:duration="400"></item>
+    <item android:drawable="@drawable/cay13" android:duration="400"></item>
+    <item android:drawable="@drawable/cay14" android:duration="400"></item>
+    <item android:drawable="@drawable/cay15" android:duration="400"></item>
+    <item android:drawable="@drawable/cay16" android:duration="400"></item>
+    <item android:drawable="@drawable/cay17" android:duration="400"></item>
+
+</animation-list>
